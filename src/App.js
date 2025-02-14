@@ -1,7 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
-import About from './About';
-import Car1 from './Car1';
+import Count from './Components/Count';
+import Counter from './Components/Counter'
 
 function App() {
   return (
@@ -24,13 +22,9 @@ function App() {
     //   </header>
     // </div>
     <div>
-    <Car1></Car1>
+      <Count></Count>
+      <Counter></Counter>
     </div>
   );
 }
-
-export default 
-
-
-
-Car1;
+export default App;  //exporting the App component
