@@ -1,8 +1,8 @@
-import CLR from "./Components/CLR";
+import Form from "./Components/Form";
 function App() {
   return (
     <div>
-      <CLR></CLR>
+      <Form></Form>
     </div>
   );
 }
